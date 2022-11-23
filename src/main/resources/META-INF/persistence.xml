@@ -1,7 +1,7 @@
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
     <persistence-unit name="spaceStationPU">
-        <class>space_station.Location</class>
-        <class>space_station.Human</class>
+        <class>space_station.model.Location</class>
+        <class>space_station.model.Human</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.show_sql" value="true"/>

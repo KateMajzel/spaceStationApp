@@ -1,7 +1,5 @@
 package space_station;
-
 import java.util.Scanner;
-
 
 public class File {
 
@@ -19,7 +17,7 @@ public class File {
             }
             scanner.close();
         } catch (Exception e) {
-            System.out.println("Nie znaleziono pliku!");
+            System.out.println("File not found!");
             e.printStackTrace();
         }
         return fileContent.toString();

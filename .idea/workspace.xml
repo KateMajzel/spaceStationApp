@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd64dad0-a67e-4bf5-84aa-de9e141cac80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/ApplicationPropertiesProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/CalculatorParamiters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/HumanInSpaceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/SpeedCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/Ui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="dd64dad0-a67e-4bf5-84aa-de9e141cac80" name="Changes" comment="First commit ISS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/api/API1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/api/API2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/api/human.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space_station/api/scratch.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/space_station.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/ApplicationPropertiesProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/ApplicationPropertiesProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/CalculatorParamiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/model/CalculatorParamiters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/model/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/HumanInSpaceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/model/HumanInSpaceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/model/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/SpeedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/model/SpeedCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/space_station/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/space_station/gui/Ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/SDA/src/main/java/spaceStation",
+    "last_opened_file_path": "C:/SDA/src/main/java/spaceStation/src/main/java/space_station/api",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -67,11 +65,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SDA\src\main\java\spaceStation\src\main\java\space_station\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\SDA\src\main\java\spaceStation\src\main\resources\META-INF" />
-      <recent name="C:\SDA\src\main\java\spaceStation\src\main\resources" />
       <recent name="C:\SDA\src\main\java\spaceStation" />
-      <recent name="C:\SDA\src\main\java\spaceStation\src\main\java" />
+      <recent name="C:\SDA\src\main\java\spaceStation\src\main\java\space_station\api" />
+      <recent name="C:\SDA\src\main\java\spaceStation\src\main\java\space_station\model" />
+      <recent name="C:\SDA\src\main\java\spaceStation\src\main\resources" />
+      <recent name="C:\SDA\src\main\java\spaceStation\target\classes" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,7 +82,7 @@
       <module name="spaceStation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="space_station.*" />
+          <option name="PATTERN" value="space_station.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +105,21 @@
       <option name="presentableId" value="Default" />
       <updated>1668540545582</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit ISS">
+      <created>1669230491235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669230491235</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit ISS">
+      <created>1669230621716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669230621716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit ISS" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit ISS" />
   </component>
 </project>
